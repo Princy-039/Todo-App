@@ -1,13 +1,16 @@
 import { useState } from 'react'
-import TodoApp from './component/TodoApp'
+import Header from './component/Header'
+import Todos from './component/Todos'
 
 function App() {
 
   return (
       <div> 
-      <TodoApp/>
+      <Header/>
+      <Todos/>
       </div> 
   )
 }
 
 export default App
+ 
